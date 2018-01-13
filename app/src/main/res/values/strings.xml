@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LearnFaceBookSDK</string>
+    <string name="facebook_app_id">1449140898517400</string>
+    <string name="fb_login_protocol_scheme">fb1449140898517400</string>
+    <string name="btnSignOut">Sign Out</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="func">Function In FaceBook</string>
+    <string name="title">Title</string>
+    <string name="des">Description</string>
+    <string name="url">URL</string>
+    <string name="sharelink">Share Link</string>
+    <string name="shareimage">Share Image</string>
+    <string name="pick">Pick Video</string>
+    <string name="video">Share Video</string>
+</resources>

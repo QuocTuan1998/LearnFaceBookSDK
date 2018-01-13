@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context="com.example.admin.learnfacebooksdk.FuncActivity">
+
+    <EditText
+        android:id="@+id/edTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/des"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/url"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/btnShareLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sharelink"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:background="@drawable/ic_insert_photo_black_24dp"
+        android:id="@+id/imgPicture"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnShareImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shareimage"
+        android:layout_gravity="center"
+        />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:weightSum="3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnPick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnShareVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/video"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
